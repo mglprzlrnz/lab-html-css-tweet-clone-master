@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(244, 248, 249);
+  font-family: Helvetica;
+}
+
+.twitt {
+  position: relative;
+  padding: 35px;
+  border: 3px solid rgb(225, 232, 237);
+  background-color: rgb(255, 255, 255);
+  width: 710px;
+  height: 270px;
+}
+
+      .top-left {
+          position: relative;
+          float: left;
+          width: 210px;
+          height: 70px;
+          }
+              .user-name {
+                font-size: 28px;
+                color: rgb(0, 0, 0)
+                font-weight: bold;
+                }
+              .user-account {
+                font-size: 28px;
+                color: rgb(104, 109, 129)
+                }
+
+      .top-right {
+          position: relative;
+          float: right;
+          font-weight: bold;
+          border: 1px solid rgb(85, 172, 238);
+          border-radius: 12px
+          width: 90px;
+          height: 30px;
+          padding: 15px 35px;
+          }
+              .follow {
+                font-size: 32px;
+                color: rgb(85, 172, 238)
+                }
+      .middle {
+          position: relative;
+          top: 60px;
+          clear: both;
+          width: 350px;
+          height: 180px;
+          }
+
+              .text {
+                font-size: 32px;
+                color: rgb(0, 0, 0)
+                }
+
+              .date {
+                font-size: 32px;
+                color: rgb(101, 116, 127)
+                }
+
+        .bottom {
+            padding-bottom: 20px
+            width: 350px;
+            height: 40px;
+            }
+
+              .likes {
+                font-size: 30px;
+                color: rgb(105, 120, 130)
+                }
